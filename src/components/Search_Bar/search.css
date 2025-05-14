@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.search_bar{
+    width: 100%;
+    height: 225px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#search_in{
+    width:40%;
+    height:20%;
+  text-align: center;
+  font-size: 28px;
+  background:radial-gradient( #bdc3c7, #afb7c0);
+  border-radius: 20px;
+  color: white;
+  
+}
+button{
+   margin-left: 5px;
+    width:auto;
+    height:20%;
+    padding:5px;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: rgb(173, 173, 119);
+   
+}
