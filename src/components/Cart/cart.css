@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+  background: radial-gradient( #8080C0,#FFD700,#ADD8E6);
+}
+.cart-container{
+  
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:10px;
+    padding: 10px;
+   
+}
+.cart-item{
+  
+  background: linear-gradient(45deg, #333333, #dd1818);
+    border-radius: 10px;
+    text-align: center;
+    padding:20px;
+    max-width: 100%;
+    box-sizing: border-box;
+     color:white;
+     font-size: 20px;
+    @media screen and (max-width: 768px) {
+        width: 350px;
+        grid-column: 2;
+    }
+    
+}
+
+  
+
+.cart-item:hover{
+   
+    padding:20px;
+    background-color: #c2c2c2;
+    border-radius: 10px;
+    text-align: center;
+    
+   }
+ .cart-item img{
+    width: 150px;
+    height: 150px;
+  }
+  
+.cart-item p{
+    text-align: center;
+    
+  }
+  
+  .qty-controls button,.remove-btn{
+    margin-top:6px;
+   width:30px;
+   height: 30px;
+    font-size: 15px;
+    background-color: rgb(181, 196, 160);
+    padding-top:4px;
+    
+  }
+  .qty-controls button:hover,.remove-btn:hover{
+   
+    padding:6px;
+    font-size: 18px;
+    background-color: rgb(186, 209, 154);
+   
+  }
+  .qty-controls span{
+    font-size: 20px;
+    padding:5px;
+    
+  }
+  
+  .cart-total{
+   
+    width:200px;
+    background:linear-gradient(to right, #abbaab, #c7bdbd);
+    text-align: center;
+    padding:24px 0px;
+    font-size: larger;
+    border-radius: 23px;
+    margin: 25px auto ;
+   
+  }
+
+  .cart-total button{
+    
+    position: relative;
+    top:10px;
+   
+    background:linear-gradient(to right, #7689be, #c7bdbd);
+    text-align: center;
+   text-wrap: wrap;
+    font-size: 20px;
+    border-radius: 23px;
+     padding: 6px;
+    
+   
+  }
