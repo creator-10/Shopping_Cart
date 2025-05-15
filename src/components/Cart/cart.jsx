@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { addToCart, decrementQty, removeFromCart } from '../../store/cartSlice'
+import { addToCart, decrementQty, removeFromCart } from '../../Slice/cartSlice'
 import './cart.css'
 
 export default function Cart() {

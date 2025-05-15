@@ -2,7 +2,7 @@
 import React from 'react'
 import './productCard.css'
 import { useSelector,useDispatch } from 'react-redux'
-import { addToCart } from '../../store/cartSlice'
+import { addToCart } from '../../Slice/cartSlice'
 
 
 
